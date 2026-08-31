@@ -13,6 +13,10 @@
     text-align: center;
     margin-top: 50px;
 }
+body {
+  background-color: #abb5ba;
+  margin: 0;
+}
 .ptext{
     font-family: sans-serif, "times new roman";
     color: #3f0101;
@@ -25,11 +29,12 @@
     justify-content: center;
 }
 .logo{
+    display: block;
     background-image: var(--logourl);
     background-size: contain;
     background-repeat: no-repeat;
     width: 200px;
-    height: 200px;
+    height: 100px;
 }
 
 .navbar {
