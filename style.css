@@ -1,6 +1,6 @@
 :root {
-  --primary-dark: #c8c9cc;   /* Dark Steel */
-  --accent-amber: #e28743;   /* Industrial Amber */
+  --primary-dark: #c8c9cc; 
+  --accent-amber: #e28743;  
   --text-light: #f8fafc;
   --text-hover: #cbd5e1;
 }
@@ -32,7 +32,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: var(--primary-dark);
+  background-color: #c8c9cc;
   border-bottom: 4px solid var(--accent-amber);
 }
 
