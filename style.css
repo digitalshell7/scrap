@@ -3,6 +3,7 @@
   --accent-amber: #e28743;  
   --text-light: #f8fafc;
   --text-hover: #cbd5e1;
+  --logourl: url('./logo.png');
 }
 
 .bgc{
@@ -24,6 +25,9 @@
     justify-content: center;
 }
 .logo{
+    background-image: var(--logourl);
+    background-size: contain;
+    background-repeat: no-repeat;
     width: 200px;
     height: auto;
 }
