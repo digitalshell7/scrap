@@ -14,9 +14,9 @@
     margin-top: 50px;
 }
 .ptext{
-    font-family: "sans-serif", "times new roman";
+    font-family: sans-serif, "times new roman";
     color: #3f0101;
-    justify-content: justify;
+    text-align: justify;
    
 }
 .container {
@@ -29,7 +29,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     width: 200px;
-    height: auto;
+    height: 200px;
 }
 
 .navbar {
